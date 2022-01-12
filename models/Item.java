@@ -1,6 +1,6 @@
 package models;
 
-public class Item {
+abstract class Item {
 
         /* Подробнее о предметах:
 

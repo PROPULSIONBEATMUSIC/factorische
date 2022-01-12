@@ -2,7 +2,11 @@ package models;
 
 abstract class Player {
 
-    // todo - хранит инвентарь с предметами? список или мапа?
+        /* Подробнее об игроке:
 
-    protected void makeDecision() {}
+     1) Имя (выбранное, либо имя ПК)
+     2) Список достижений */
+
+    abstract void makeDecision();
+    // todo - а нужно ли оно здесь?
 }

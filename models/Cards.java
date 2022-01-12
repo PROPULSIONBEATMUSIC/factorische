@@ -3,16 +3,14 @@ package models;
 import java.util.ArrayList;
 
 enum CardsCategories {
-    CH, CUF, CNF, E
+    CH, CUF, CNF, EV
 
         /* Расшифровка аббревиатур:
 
     - CH - Challenge Card
     - CUF - Challenge Urgent Follow-Up
     - CNF - Challenge Non-Urgent Follow-Up
-    - E - Event Card (includes follow-ups)
-
-    todo - (Не)одноразовость карточек
+    - EV - Event Card (includes follow-ups)
 
     todo - Расписать подробно о типах картонок
          - Вомзонжо, стоит изменить аббревиатуры */
@@ -35,7 +33,6 @@ abstract class Cards {
         2) isActive
         3) probability (random values scope)
         4) description
-        5) options map (Integer, Option)
-         */
+        5) options map (Integer, Option) */
     }
 }
