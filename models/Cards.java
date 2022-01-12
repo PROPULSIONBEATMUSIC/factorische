@@ -12,6 +12,8 @@ enum CardsCategories {
     - CNF - Challenge Non-Urgent Follow-Up
     - E - Event Card (includes follow-ups)
 
+    todo - (Не)одноразовость карточек
+
     todo - Расписать подробно о типах картонок
          - Вомзонжо, стоит изменить аббревиатуры */
 }
@@ -20,7 +22,9 @@ abstract class Cards {
 
     private String description;
     private double probability;
+
     private boolean isActive;
+    private boolean isDisposable;
 
     private CardsCategories category;
 

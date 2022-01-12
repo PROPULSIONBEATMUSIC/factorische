@@ -31,7 +31,6 @@ abstract class Game {
         (challenge -> %ch-follow-up -> event/%e-follow-up)
         4) Принт карточки
         5) Выбор игрока
-        6) Пересчет статов
-         */
+        6) Пересчет статов */
     }
 }
