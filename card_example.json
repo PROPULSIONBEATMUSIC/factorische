@@ -1,46 +1,46 @@
 [
-	{
-		"category": "Problem_1"
-		"isActive": false
-		"probability": 50					
-		"description": "На заводе перегорели лампочки, без них очень трудно работать нужна замена!"
-		"options map"  	{
-						"id": 1 {
-							"description": "Заменить"
-							"requirements"{
-										"Manpower": 0,
-										"Efficiency": 0,
-										"Budget": 0,
-										"Pollution": 0
-											}
-							"results"{
-										"Manpower": 0,
-										"Efficiency": 0,
-										"Budget": 0,
-										"Pollution": 0
-											}
-								}
-				
-						"id": 2 {
-						"requirements"{
-										"Manpower": 0,
-										"Efficiency": 0,
-										"Budget": 0,
-										"Pollution": 0
-											}
-							"results"{
-										"Manpower": 0,
-										"Efficiency": 0,
-										"Budget": 0,
-										"Pollution": 0
-											}
-								"description": "Не заменять"
-								"Manpower": 0,
-								"Efficiency": 0,
-								"Budget": 0,
-								"Pollution": 0
-								}
-						}
-		"isDisposable": true
-	}
+  {
+    "category": "Challenge",
+    "isActive": true,
+    "probability": 50,
+    "description": "На заводе перегорели лампочки, без них очень трудно работать. Нужна замена!",
+
+    "options map":
+    [
+      {
+        "id": 1,
+        "description": "Заменить",
+        "requirements": {
+          "Manpower": null,
+          "Efficiency": null,
+          "Budget": [100,null],
+          "Pollution": null
+        },
+        "results": {
+          "Manpower": null,
+          "Efficiency": null,
+          "Budget": -100,
+          "Pollution": null
+        }
+      },
+      {
+        "id": 2,
+        "description": "Не заменять",
+        "requirements": {
+          "Manpower": null,
+          "Efficiency": null,
+          "Budget": null,
+          "Pollution": null
+        },
+        "results": {
+          "Manpower": null,
+          "Efficiency": -0.5,
+          "Budget": null,
+          "Pollution": null
+        }
+      }
+    ],
+
+    "isDisposable": true
+  }
 ]
