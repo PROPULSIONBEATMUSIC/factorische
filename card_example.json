@@ -1,0 +1,46 @@
+[
+	{
+		"category": "Problem_1"
+		"isActive": false
+		"probability": 50					
+		"description": "На заводе перегорели лампочки, без них очень трудно работать нужна замена!"
+		"options map"  	{
+						"id": 1 {
+							"description": "Заменить"
+							"requirements"{
+										"Manpower": 0,
+										"Efficiency": 0,
+										"Budget": 0,
+										"Pollution": 0
+											}
+							"results"{
+										"Manpower": 0,
+										"Efficiency": 0,
+										"Budget": 0,
+										"Pollution": 0
+											}
+								}
+				
+						"id": 2 {
+						"requirements"{
+										"Manpower": 0,
+										"Efficiency": 0,
+										"Budget": 0,
+										"Pollution": 0
+											}
+							"results"{
+										"Manpower": 0,
+										"Efficiency": 0,
+										"Budget": 0,
+										"Pollution": 0
+											}
+								"description": "Не заменять"
+								"Manpower": 0,
+								"Efficiency": 0,
+								"Budget": 0,
+								"Pollution": 0
+								}
+						}
+		"isDisposable": true
+	}
+]
