@@ -1,0 +1,107 @@
+[
+  {
+    "category": "Challenge",
+    "description": "На заводе перегорели лампочки, без них очень трудно работать. Нужна замена!",
+    "isActive": true,
+    "isQueued": false,
+    "isDisposable": true,
+    "rarity": "common",
+    "requirements": {
+      "stats": {
+        "manpower": null,
+        "budget": null,
+        "pollution": null
+      },
+      "reputation": {
+        "rep_gov": null,
+        "rep_civ": null,
+        "rep_wrk": null,
+        "rep_sci": null,
+        "rep_fag": null,
+        "rep_bus": null
+      },
+      "modifier": null,
+      "item": null
+    },
+    "options": [
+      {
+        "id": 1,
+        "description": "Заменить",
+        "requirements": {
+          "stats": {
+            "manpower": null,
+            "budget": null,
+            "pollution": null
+          },
+          "reputation": {
+            "rep_gov": null,
+            "rep_civ": null,
+            "rep_wrk": null,
+            "rep_sci": null,
+            "rep_fag": null,
+            "rep_bus": null
+          },
+          "modifier": null,
+          "item": null
+        },
+        "results": {
+          "stats": {
+            "manpower": null,
+            "efficiency": null,
+            "budget": null,
+            "pollution": null
+          },
+          "reputation": {
+            "rep_gov": null,
+            "rep_civ": null,
+            "rep_wrk": null,
+            "rep_sci": null,
+            "rep_fag": null,
+            "rep_bus": null
+          },
+          "modifier": null,
+          "item": null
+        }
+      },
+      {
+        "id": 2,
+        "description": "Не заменять",
+        "requirements": {
+          "stats": {
+            "manpower": null,
+            "budget": null,
+            "pollution": null
+          },
+          "reputation": {
+            "rep_gov": null,
+            "rep_civ": null,
+            "rep_wrk": null,
+            "rep_sci": null,
+            "rep_fag": null,
+            "rep_bus": null
+          },
+          "modifier": null,
+          "item": null
+        },
+        "results": {
+          "stats": {
+            "manpower": null,
+            "efficiency": null,
+            "budget": null,
+            "pollution": null
+          },
+          "reputation": {
+            "rep_gov": null,
+            "rep_civ": null,
+            "rep_wrk": null,
+            "rep_sci": null,
+            "rep_fag": null,
+            "rep_bus": null
+          },
+          "modifier": null,
+          "item": null
+        }
+      }
+    ]
+  }
+]

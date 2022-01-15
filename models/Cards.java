@@ -13,7 +13,7 @@ enum CardsCategories {
     - EV - Event Card (includes follow-ups)
 
     todo - Расписать подробно о типах картонок
-         - Вомзонжо, стоит изменить аббревиатуры */
+         - Возможно, стоит изменить аббревиатуры */
 }
 
 abstract class Cards {
@@ -35,4 +35,8 @@ abstract class Cards {
         4) description
         5) options map (Integer, Option) */
     }
+
+    abstract void setProbability();
+    abstract void activate();
+    abstract void deactivate();
 }

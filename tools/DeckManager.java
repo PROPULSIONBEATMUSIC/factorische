@@ -1,7 +1,7 @@
 package tools;
 
-abstract class DeckManager {
+public class DeckManager {
 
-    abstract void deck2json();
-    abstract void json2deck();
+    protected void deck2json(){};
+    protected void json2deck(){};
 }
